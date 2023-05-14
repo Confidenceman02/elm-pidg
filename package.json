@@ -1,16 +1,29 @@
 {
   "name": "@confidenceman02/elm-pidg",
+  "type": "module",
   "version": "1.0.3",
   "description": "I18n bindings for elm programs",
   "main": "dist/dynamic.js",
+  "alias": {
+    "@lingui/message-utils/compileMessage": "./node_modules/@ligui/message-utils/dist/compileMessage.mjs"
+  },
   "devDependencies": {
     "@parcel/transformer-elm": "^2.8.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.1",
     "elm": "^0.19.1-5",
-    "elm-format": "^0.8.7",
     "elm-test": "^0.19.1-revision12",
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "path-browserify": "^1.0.0",
+    "process": "^0.11.10",
+    "rollup": "^3.21.7",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@icelab/defo": "^0.0.3"
+    "@icelab/defo": "^0.0.3",
+    "@lingui/cli": "^4.0.0",
+    "@lingui/core": "^4.0.0",
+    "@types/node": "^20.1.4"
   }
 }

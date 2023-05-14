@@ -1,5 +1,6 @@
 .parcel-cache
-/dist-example
+dist-pidg
+dist-example
 elm-stuff
 node_modules
 

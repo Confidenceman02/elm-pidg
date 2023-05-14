@@ -6,4 +6,4 @@ import Html.Attributes exposing (attribute)
 
 trans : Html msg
 trans =
-    p [ attribute "data-defo-pidg" ("messages") ] []
+    p [ attribute "data-defo-pidg" "msg.header" ] []

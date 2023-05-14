@@ -1,21 +1,18 @@
 //@ts-ignore
 import { Elm } from "./Main.elm";
-import defo from "@icelab/defo";
+import { load } from "../dist-pidg/translations";
+import { AllMessages } from "@lingui/core";
+const en = require("./locales/en/messages");
+const fr = require("./locales/fr/messages");
 
-const views = {
-  pidg: function (el: any, trans: string) {
-    console.log("Pidg initiated");
-    return {
-      update: function (newName: string, oldName: string) {
-        console.log("Updated pidg");
-      },
-    };
-  },
+const messages: AllMessages = {
+  en: en.messages,
+  fr: fr.messages,
 };
+
+load("en", messages);
 
 const app = Elm.Main.init({
   node: document.querySelector("main"),
   flags: null,
 });
-
-defo({ views });

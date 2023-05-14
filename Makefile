@@ -4,3 +4,6 @@ Y=yarn -s --prefer-offline
 run-example:
 	${Y} parcel --dist-dir=dist-example --open --port=8086 examples/index.html
 
+.PHONY: transpile-pidg
+transpile-pidg:
+	${Y} rollup -c --bundleConfigAsCjs

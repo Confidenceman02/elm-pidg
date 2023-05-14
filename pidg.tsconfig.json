@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES2015",
-    "module": "nodenext",
     "declaration": true,
-    "outDir": "dist",
+    "outDir": "dist-pidg",
     "strict": true,
     "moduleResolution": "Node",
-    "lib": ["dom", "ES2015"]
+    "lib": ["dom", "ES2015"],
+    "allowJs": true
   },
   "esModuleInterop": true,
-  "include": ["./index.ts", "./examples/index.ts"],
+  "allowSyntheticDefaultImports": true,
+  "include": ["./examples/translations.ts"],
   "exclude": ["node_modules"]
 }
