@@ -1,0 +1,11 @@
+.parcel-cache
+/dist-example
+elm-stuff
+node_modules
+
+
+# Makefile pseudo target
+/*.INSTALLED
+
+# Elm book
+elm-book/dist-book

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "Node"
+  },
+  "esModuleInterop": true,
+  "include": ["generator/**/*", "./index.ts"],
+  "exclude": ["node_modules"]
+}
