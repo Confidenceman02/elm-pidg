@@ -3,7 +3,7 @@ import nodeResolve from "@rollup/plugin-node-resolve";
 
 const config = [
   {
-    input: "examples/translations.ts",
+    input: "examples/elmPidg.ts",
     output: {
       dir: "dist-pidg",
       format: "cjs",

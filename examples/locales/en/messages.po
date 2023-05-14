@@ -14,6 +14,11 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: examples/index.ts:11
-msgid "msg.header"
+#: examples/translations.ts:8
+msgid "Hello world"
 msgstr "Hello world"
+
+#. js-lingui-explicit-id
+#: examples/translations.ts:3
+msgid "msg.id"
+msgstr "Message with id some"

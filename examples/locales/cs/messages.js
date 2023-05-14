@@ -1,1 +1,1 @@
-/*eslint-disable*/module.exports={messages:JSON.parse("{\"msg.header\":\"Hello world\"}")};
+/*eslint-disable*/module.exports={messages:JSON.parse("{\"Hello world\":\"Hello world\",\"msg.id\":\"Message with id some\",\"ID Some\":\"ID Some\",\"msg.header\":\"msg.header\",\"Hello wolrd\":\"Hello wolrd\"}")};

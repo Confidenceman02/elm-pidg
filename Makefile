@@ -7,3 +7,11 @@ run-example:
 .PHONY: transpile-pidg
 transpile-pidg:
 	${Y} rollup -c --bundleConfigAsCjs
+
+.PHONY: extract
+extract:
+	${Y} lingui extract
+
+.PHONY: compile
+compile:
+	${Y} lingui compile

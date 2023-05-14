@@ -24,6 +24,7 @@
     "@icelab/defo": "^0.0.3",
     "@lingui/cli": "^4.0.0",
     "@lingui/core": "^4.0.0",
+    "@lingui/macro": "^4.1.2",
     "@types/node": "^20.1.4"
   }
 }
