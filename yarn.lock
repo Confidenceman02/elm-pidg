@@ -48,6 +48,11 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@icelab/defo@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@icelab/defo/-/defo-0.0.3.tgz#2124781382270e66a43c69c9be3d50598d9a0864"
+  integrity sha512-cPXj4pIDGfvw0RLLVeui/BGnSapWCxQ9Gnh7y7oLkuQM9lEIwUtA6yVR5s148jz1ldyH/wgUm3nFqAVURn3gpg==
+
 "@jridgewell/gen-mapping@^0.3.0":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz#7e02e6eb5df901aaedb08514203b096614024098"
@@ -1087,11 +1092,6 @@ dashdash@^1.12.0:
   integrity sha512-jRFi8UDGo6j+odZiEpjazZaWqEal3w/basFjQHQEwVtZJGDpxbH1MeYluwCS8Xq5wmLJooDlMgvVarmWfGM44g==
   dependencies:
     assert-plus "^1.0.0"
-
-defo@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/defo/-/defo-2.1.3.tgz#9a5d45dd949a79ae1456a88fceaed4e8a37f7b4a"
-  integrity sha512-mafroBbtYZYysj93/AweKUPnuH5DXZlA0mvxwEd4HA3NwOk263MSqinQ0lPReDj/xG5qzrXDGYshowZJ+ybvtw==
 
 delayed-stream@~1.0.0:
   version "1.0.0"

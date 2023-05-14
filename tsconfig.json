@@ -3,11 +3,12 @@
     "target": "ES2015",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "dist",
     "strict": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "lib": ["dom", "ES2015"]
   },
   "esModuleInterop": true,
-  "include": ["generator/**/*", "./index.ts"],
+  "include": ["./index.ts", "./examples/index.ts"],
   "exclude": ["node_modules"]
 }

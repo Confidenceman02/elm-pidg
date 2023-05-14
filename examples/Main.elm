@@ -1,8 +1,8 @@
-module Main exposing (Msg(..), main, update, view)
+module Main exposing (main, update, view)
 
 import Browser exposing (Document)
-import Html exposing (button, div, text)
-import Html.Events exposing (onClick)
+import Html exposing (text)
+import Pidg
 
 
 main : Program () Int Msg
@@ -37,13 +37,9 @@ update msg model =
 
 view : Int -> Document Msg
 view model =
-    { title = "Pidge example"
+    { title = "Pidg example"
     , body =
-        [ div []
-            [ button [ onClick Decrement ] [ text "-" ]
-            , div [] [ text (String.fromInt model) ]
-            , button [ onClick Increment ] [ text "+" ]
-            ]
+        [ Pidg.trans
+        , text "Hi there"
         ]
     }
-
